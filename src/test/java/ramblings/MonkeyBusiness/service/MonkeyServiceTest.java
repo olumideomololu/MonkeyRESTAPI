@@ -81,7 +81,7 @@ class MonkeyServiceTest {
     @Test
     public void shouldReturnAllMonkeys() {
         // Given
-        List<Monkey> monkeys = new ArrayList<Monkey>();
+        List<Monkey> monkeys = new ArrayList<>();
         monkeys.add(new Monkey(
                 "Donkey Kong",
                 Rank.BETA,
